@@ -1,9 +1,5 @@
-import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
-
-import { addMember } from "../slices/memberSlice";
-
-import Layout from "../components/Layout";
+import { addMember } from "./store/slices/memberSlice";
 
 const HomePage = () => {
   const dispatch = useDispatch();
